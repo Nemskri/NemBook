@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/NemBook/static/css/main.5e866c80.css",
+    "main.js": "/NemBook/static/js/main.8370b922.js",
+    "index.html": "/NemBook/index.html",
+    "main.5e866c80.css.map": "/NemBook/static/css/main.5e866c80.css.map",
+    "main.8370b922.js.map": "/NemBook/static/js/main.8370b922.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e866c80.css",
+    "static/js/main.8370b922.js"
+  ]
+}
