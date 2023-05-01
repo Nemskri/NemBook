@@ -1,0 +1,93 @@
+.right-pane {
+    flex: 3;
+    position: sticky;
+    top: 70px;
+    height: calc(100vh - 70px);
+    overflow: scroll;
+    border-radius: 10px;
+
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+
+        .item {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            border-radius: 10px;
+
+            -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
+            -moz-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
+            box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
+
+            .title {
+                color: darkgray;
+            }
+
+            .content {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                position: relative;
+
+                .user-info {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    img {
+                        height: 40px;
+                        width: 40px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+                }
+
+                .online {
+                    position: absolute;
+                    background-color: green;
+                    height: 12px;
+                    width: 12px;
+                    border-radius: 50%;
+                    top: 5px;
+                    left: 32px;
+                }
+
+                .buttons {
+                    display: flex;
+                    gap: 10px;
+                    height: 20px;
+
+                    .follow {
+                        color: white;
+                        cursor: pointer;
+                        border: none;
+                        border-radius: 2px;
+                        width: 80px;
+                        background-color: blue;
+                    }
+
+                    .dismiss {
+                        color: white;
+                        cursor: pointer;
+                        border: none;
+                        border-radius: 2px;
+                        width: 65px;
+                        background-color: red;
+                    }
+                }
+            }
+        }
+
+    }
+
+}

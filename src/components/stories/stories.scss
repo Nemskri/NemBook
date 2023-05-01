@@ -1,0 +1,54 @@
+.stories {
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    height: 250px;
+    margin-bottom: 30px;
+    padding: 20px;
+    width: 100%;
+    flex: 1;
+
+
+    .story {
+        flex: 1;
+        display: flex;
+        border-radius: 5px;
+        overflow: hidden;
+        position: relative;
+        height: 200px;
+
+        span {
+            font-size: 20px;
+            color: black;
+            position: absolute;
+            bottom: 2px;
+            font-weight: 1000;
+            background: transparentize($color: white, $amount: 0.5);
+            width: 100%;
+            text-align: center;
+        }
+
+        button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            height: 30px;
+            width: 30px;
+            position: absolute;
+            top: 140px;
+            left: 5px;
+            background-color: blue;
+            font-size: 20px;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}

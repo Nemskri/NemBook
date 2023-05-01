@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.app {
+  height: 100%;
+  width: 100%;
+}
+
+@mixin mobile {
+  @media (max-width:900px) {
+    @content;
+  }
+}

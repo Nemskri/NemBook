@@ -1,0 +1,71 @@
+.comments {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+
+    .write {
+        display: flex;
+        gap: 10px;
+
+        img {
+            height: 40px;
+            width: 40px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        input {
+            width: 100%;
+            font-size: 15px;
+            padding: 10px;
+            border: none;
+            background-color: white;
+        }
+
+        button {
+            background-color: blue;
+            border: none;
+            width: 50px;
+            color: white;
+        }
+    }
+
+    .comment {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+
+        img {
+            height: 30px;
+            width: 30px;
+            object-fit: cover;
+            padding: 0;
+            border-radius: 50%;
+        }
+
+        span {
+            font-size: 12px;
+        }
+
+        .info {
+            width: 100%;
+
+            .name {
+                font-weight: 500;
+            }
+
+            p {
+                text-align: start;
+                font-size: 13px;
+            }
+        }
+
+        .date {
+            font-size: 12px;
+            color: gray;
+        }
+    }
+}

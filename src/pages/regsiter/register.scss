@@ -1,0 +1,102 @@
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(112, 92, 226);
+
+    .card {
+        display: flex;
+        height: 500px;
+        width: 800px;
+        border-radius: 10px;
+        background-color: purple;
+
+    }
+
+    .right {
+        height: 100%;
+        background-color: purple;
+        color: white;
+        padding: 50px;
+        flex: 1;
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: start;
+        border-radius: 10px;
+
+        h1 {
+            font-size: 50px;
+            color: white;
+            text-align: left;
+        }
+
+        p {
+            font-size: 18px;
+            text-align: justify;
+        }
+
+        span {
+            font-size: 15px;
+            text-align: left;
+        }
+
+        button {
+            border: none;
+            height: 40px;
+            width: 200px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+    }
+
+    .left {
+        height: 100%;
+        background-color: white;
+        padding: 20px;
+        gap: 10px;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: start;
+        border-radius: 10px;
+
+        h1 {
+            font-size: 30px;
+            color: black;
+            text-align: left;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            color: black;
+            padding: 20px 10px;
+
+            input {
+                height: 50px;
+                width: 300px;
+                background-color: transparent;
+                border: none;
+                border-bottom: 2px solid black;
+                font-size: 20px;
+            }
+
+            button {
+                border: none;
+                height: 40px;
+                width: 200px;
+                font-size: 15px;
+                cursor: pointer;
+                background-color: purple;
+                color: white;
+            }
+        }
+
+
+    }
+}

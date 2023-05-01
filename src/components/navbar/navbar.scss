@@ -1,0 +1,103 @@
+@import '../../App.scss';
+
+.navbar {
+    height: 60px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 10;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    border-bottom: 2px solid;
+
+
+
+    .left {
+
+        display: flex;
+        gap: 20px;
+        align-items: center;
+
+        .icon {
+            font-size: 30px;
+            transition: 0.75s;
+            cursor: pointer;
+        }
+
+        .icon:hover {
+            transform: scale(1.1);
+        }
+
+        .search {
+            display: flex;
+            gap: 5px;
+            align-items: center;
+            border: 2px solid black;
+            border-radius: 5px;
+            background: transparent;
+
+            input {
+                height: 35px;
+                width: 400px;
+                font-size: 15px;
+                border: none;
+                padding: 10px;
+                border-radius: 5px;
+
+            }
+        }
+
+        img {
+
+            height: 40px;
+            padding: 0;
+        }
+
+    }
+
+    .right {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        justify-content: space-between;
+
+
+        .icons {
+            flex: 1;
+            transition: 0.75s;
+            cursor: pointer;
+            display: flex;
+            justify-content: flex-start;
+            gap: 20px;
+
+            .icon {
+                font-size: 30px;
+                transition: 0.5s;
+            }
+        }
+
+        .icon:hover {
+            transform: scale(1.1);
+        }
+
+        .profile {
+            flex: 2;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+            justify-content: end;
+            padding-right: 20px;
+
+            img {
+                height: 40px;
+                width: 40px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+        }
+    }
+}
