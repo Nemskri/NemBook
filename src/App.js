@@ -12,7 +12,7 @@ import { useGlobalContext } from './Context';
 function App() {
 
   const { mode } = useGlobalContext();
-  const currentUser = true;
+  
 
   const Layout = () => {
     return (
