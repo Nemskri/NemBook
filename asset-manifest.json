@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/NemBook/static/css/main.5e866c80.css",
-    "main.js": "/NemBook/static/js/main.e0cd401c.js",
+    "main.js": "/NemBook/static/js/main.e5b75aa4.js",
     "index.html": "/NemBook/index.html",
     "main.5e866c80.css.map": "/NemBook/static/css/main.5e866c80.css.map",
-    "main.e0cd401c.js.map": "/NemBook/static/js/main.e0cd401c.js.map"
+    "main.e5b75aa4.js.map": "/NemBook/static/js/main.e5b75aa4.js.map"
   },
   "entrypoints": [
     "static/css/main.5e866c80.css",
-    "static/js/main.e0cd401c.js"
+    "static/js/main.e5b75aa4.js"
   ]
 }
