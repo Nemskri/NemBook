@@ -1,4 +1,4 @@
-import { BrowserRouter, Navigate, Outlet, Route, RouterProvider, Routes, createBrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Navigate, Outlet, Route, RouterProvider, Routes, createBrowserRouter, createHashRouter } from 'react-router-dom';
 import Login from './pages/login/Login';
 import Navbar from './components/navbar/Navbar';
 import Left from './components/left/Left';
@@ -13,7 +13,6 @@ function App() {
 
   const { mode } = useGlobalContext();
   const currentUser = true;
-
 
   const Layout = () => {
     return (
@@ -42,7 +41,7 @@ function App() {
     }
   }
 
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {
       path: "/",
       element: (
